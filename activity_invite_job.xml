@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_invite_job"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/edittextshape"
+    tools:context="nnk.com.jobhouse.InviteJob">
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/user"/>
+    <TableLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl1">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv1"
+            android:text="....."
+            android:textColor="#49b3d9"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginLeft="105dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="monospace"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/elig_tv"
+                android:text= "Graduation  :"
+                android:textColor="#373745"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv2"
+                android:text="....."
+                android:textColor="#333346"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/skill_tv"
+                android:text="skills   :"
+                android:textColor="#393948"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv3"
+                android:text="....."
+                android:textColor="#363645"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/exp_tv"
+                android:text="Experience   :"
+                android:textColor="#3a3a4e"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv4"
+                android:text="....."
+                android:textColor="#5e5e69"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+
+        </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pos_tv"
+            android:text="Graduation year    :"
+            android:textColor="#626270"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv5"
+            android:text="....."
+            android:textColor="#616171"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+
+    </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv9"
+            android:text="email      :"
+            android:textColor="#60606c"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv6"
+            android:text="....."
+            android:textColor="#686879"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+    </TableRow>
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll1">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:text="cancel"
+            android:id="@+id/b1"
+            android:onClick="cancel"
+            android:textColor="#fff"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/buttonshape"></Button>
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="120dp"
+            android:text="invite"
+            android:onClick="invite"
+            android:textColor="#fff"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/b2"
+            android:background="@drawable/buttonshape"></Button>
+    </LinearLayout>
+
+</LinearLayout>

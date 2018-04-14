@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_job_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1"
+    android:background="@drawable/edittextshape"
+    tools:context="nnk.com.jobhouse.JobPost">
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="37dp"
+        android:id="@+id/cname"
+        android:ems="10"
+        android:hint="Company name"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="9dp"/>
+
+    <Spinner
+        android:layout_width="290dp"
+        android:layout_height="37dp"
+        android:id="@+id/sp1"
+        android:layout_margin="9dp"
+        android:background="@drawable/edittextshape">
+    </Spinner>
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="37dp"
+        android:id="@+id/eligibility"
+        android:ems="10"
+        android:hint="Eligibility"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="9dp"/>
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="37dp"
+        android:id="@+id/experience"
+        android:ems="10"
+        android:hint="Experience"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="9dp"/>
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="37dp"
+        android:id="@+id/skills"
+        android:ems="10"
+        android:hint="skills required"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="9dp"/>
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="38dp"
+        android:id="@+id/position"
+        android:ems="10"
+        android:hint="position"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="37dp"
+        android:id="@+id/salary"
+        android:ems="10"
+        android:hint="salary"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="9dp"/>
+    <EditText
+        android:layout_width="290dp"
+        android:layout_height="37dp"
+        android:id="@+id/location"
+        android:ems="10"
+        android:hint="Job location"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="9dp"/>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="37dp"
+        android:text="post the job"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"
+        android:onClick="applyJob"/>
+
+
+</LinearLayout>

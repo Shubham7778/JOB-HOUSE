@@ -1,0 +1,7 @@
+<ListView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lv"
+    android:layout_margin="5dp"
+    android:divider="#a9aaac"
+    android:dividerHeight="1dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_company_welcome"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/company"
+    tools:context="nnk.com.jobhouse.CompanyWelcome">
+
+    <TextView
+        android:layout_marginBottom="80dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="....."
+        android:textColor="#1f565e"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="160dp"
+        android:fontFamily="monospace"/>
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:text="job post"
+            android:background="@drawable/buttonshape"
+            android:id="@+id/job_post"
+            android:layout_marginLeft="27dp"
+            android:textColor="#fff"
+            android:onClick="jobPost"/>
+
+        <Button
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:text="view resume"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:id="@+id/resume"
+            android:onClick="viewResume"/>
+
+</LinearLayout>

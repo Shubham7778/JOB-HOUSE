@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_recruiter"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/edittextshape"
+    tools:context="nnk.com.jobhouse.LoginRecruiter">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/header_login"/>
+
+   <android.support.design.widget.TextInputLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/til_companyName">
+       <EditText
+           android:layout_width="310dp"
+           android:layout_height="40dp"
+           android:hint="Company Name"
+           android:layout_marginTop="100dp"
+           android:layout_marginLeft="20dp"
+           android:padding="5dp"
+           android:layout_marginBottom="20dp"
+           android:ems="10"
+           android:background="@drawable/edittextshape"/>
+   </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_companypass">
+
+        <EditText
+            android:layout_width="310dp"
+            android:layout_height="40dp"
+            android:hint="password"
+            android:ems="10"
+            android:background="@drawable/edittextshape"
+            android:layout_marginLeft="20dp"
+            android:padding="5dp"
+            android:layout_marginBottom="50dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:background="@drawable/buttonshape"
+        android:text="login"
+        android:onClick="loginCompany"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="#fbfbfc"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="new Company? Click Here"
+        android:textSize="20dp"
+        android:layout_marginBottom="100dp"
+        android:textColor="#274b5e"
+        android:layout_marginLeft="70dp"
+        android:onClick="newCompany"/>
+</LinearLayout>

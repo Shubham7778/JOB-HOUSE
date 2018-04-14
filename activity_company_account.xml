@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_company_account"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context="nnk.com.jobhouse.companyAccount">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/creg"
+        android:layout_marginBottom="50dp"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_companyName">
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:hint="Company Name"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:background="@drawable/edittextshape"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_password">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:hint="password"
+            android:ems="10"
+            android:background="@drawable/edittextshape"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_cpassword">
+
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:hint="Confirm password"
+            android:ems="10"
+            android:background="@drawable/edittextshape"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="20dp"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/b1"
+        android:background="@drawable/buttonshape"
+        android:text="register"
+        android:layout_marginBottom="100dp"
+        android:textColor="#fbfbfc"
+        android:layout_marginLeft="30dp"
+        android:onClick="registerCompany"/>
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_apply_job"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    tools:context="nnk.com.jobhouse.ApplyJob">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/joboffer"
+        android:background="?attr/selectableItemBackgroundBorderless"/>
+    <TableLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tl1">
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv2"
+                android:text="....."
+                android:textColor="#49b3d9"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="monospace"/>
+
+
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv3"
+                android:text="Eligibility  :"
+                android:textColor="#6a6a71"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv4"
+                android:text="....."
+                android:textColor="#656578"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/skill"
+                android:text="skills required  :"
+                android:textColor="#595964"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tl_skill"
+                android:text="....."
+                android:textColor="#686876"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv5"
+                android:text="Experience   :"
+                android:textColor="#646473"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/aj_tv6"
+                android:text="....."
+                android:textColor="#5e5e69"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"/>
+
+        </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv7"
+            android:text="Position     :"
+            android:textColor="#626270"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv8"
+            android:text="....."
+            android:textColor="#616171"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+
+    </TableRow> <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv9"
+            android:text="Salary       :"
+            android:textColor="#60606c"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv10"
+            android:text="....."
+            android:textColor="#686879"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+
+    </TableRow>
+        <TableRow>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv11"
+            android:text="Location     :"
+            android:textColor="#60606c"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/aj_tv12"
+            android:text="....."
+            android:textColor="#646470"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="monospace"/>
+
+    </TableRow>
+    </TableLayout>
+
+    <Button
+
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:id="@+id/aj_apply"
+        android:text="Next"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:onClick="applyForJob"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"/>
+
+
+</LinearLayout>

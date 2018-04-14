@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_job_seeker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    android:background="@drawable/shape"
+
+    tools:context="nnk.com.jobhouse.LoginJobSeeker">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/user"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login to your Account"
+        android:textColor="#f3f3f5"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="80dp"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til1">
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="42dp"
+            android:hint="username"
+            android:id="@+id/uname"
+            android:textSize="20sp"
+            android:background="@drawable/edittextshape"
+            android:layout_marginTop="80dp"
+            android:layout_margin="10dp"
+            android:padding="5dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="30dp"
+            android:ems="10"
+            android:textColor="#0cd70c"/>
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til2">
+        <EditText
+            android:layout_width="320dp"
+            android:layout_height="42dp"
+            android:id="@+id/pass"
+            android:hint="password"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/edittextshape"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#27ca29" />
+
+    </android.support.design.widget.TextInputLayout>
+<Button
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/b1"
+    android:text="login"
+    android:onClick="loginUser"
+    android:background="@drawable/buttonshape"
+    android:textColor="#f9f9fa"
+    android:layout_marginLeft="9dp"
+    android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:onClick="registration"
+        android:text="New user? Click here"
+        android:textColor="#2c5d6b"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        android:textSize="20dp"/>
+
+
+</LinearLayout>

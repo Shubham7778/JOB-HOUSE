@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_apply_job_next"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/edittextshape"
+    android:gravity="center"
+    tools:context="nnk.com.jobhouse.ApplyJobNext">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/iv"
+        android:onClick="openCamera"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/camera"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload your photo"
+        android:textColor="#2c5260"
+        android:textSize="20dp"
+        android:layout_marginBottom="40dp"
+        android:onClick="uploadPhoto"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="Mention your experience"
+        android:padding="5dp"
+        android:background="@drawable/edittextshape"
+        android:id="@+id/et_exp"/>
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:padding="5dp"
+        android:hint="Why should we hire you"
+        android:background="@drawable/edittextshape"
+        android:layout_margin="10dp"
+        android:id="@+id/et_writeup"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/apply"
+        android:text="apply"
+        android:background="@drawable/buttonshape"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:onClick="jobApply"/>
+
+</LinearLayout>

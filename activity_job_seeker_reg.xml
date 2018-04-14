@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_job_seeker_reg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/shape"
+    tools:context="nnk.com.jobhouse.JobSeekerReg">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/user_registration"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_name">
+    <EditText
+        android:paddingLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:id="@+id/name"
+        android:ems="10"
+        android:background="@drawable/edittextshape"
+        android:hint="Name"
+        android:layout_margin="10dp"
+        android:inputType="text"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_pass">
+
+    <EditText
+
+        android:layout_margin="10dp"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:id="@+id/password"
+        android:ems="10"
+        android:padding="5dp"
+        android:background="@drawable/edittextshape"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_email">
+    <EditText
+
+        android:paddingLeft="5dp"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:layout_margin="10dp"
+        android:id="@+id/email"
+        android:ems="10"
+        android:background="@drawable/edittextshape"
+        android:inputType="textEmailAddress"
+        android:hint="Email-Id"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/til_cno">
+    <EditText
+
+        android:paddingLeft="5dp"
+        android:layout_margin="10dp"
+        android:layout_width="330dp"
+        android:layout_height="42dp"
+        android:id="@+id/contact"
+        android:ems="10"
+        android:background="@drawable/edittextshape"
+        android:inputType="phone"
+        android:hint="Contact No"
+        android:maxLength="10"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <RadioGroup
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg"
+        android:tag="Sex"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rb_male"
+            android:text="Male"
+            android:textSize="20dp"
+            android:layout_margin="10dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/rb_female"
+            android:textSize="20dp"
+            android:text="Female"/>
+
+    </RadioGroup>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/aw1_next"
+        android:onClick="next"
+        android:text="next"
+        android:background="@drawable/buttonshape"
+        android:textColor="#ffffff"/>
+
+</LinearLayout>
